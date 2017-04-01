@@ -1,7 +1,7 @@
 function helloReducer(state=[],action){
   switch (action.type) {
-    case 'GET_COMMENTS':
-    return action.comments;
+    case 'GET_USERNAME':
+    return action.userInfo;
       break;
     default:
     return state;
